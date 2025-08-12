@@ -1,0 +1,54 @@
+인증키 : 6976495561636c6f38324e68585967
+
+url : http://openapi.seoul.go.kr:8088/6976495561636c6f38324e68585967/json/SebcCollegeInfoKor/1/100/
+
+http://openapi.seoul.go.kr:8088/6976495561636c6f38324e68585967/json/SeoulPublicLibraryInfo/1/200/
+
+예시:
+{
+  "SebcCollegeInfoKor": {
+    "list_total_count": 64,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "MAIN_KEY": "BE_LiST23-0034",
+        "YEAR": "2013",
+        "CATE1_NAME": "일반대학",
+        "NAME_KOR": "서울시립대학교",
+        "BRANCH": "본교",
+        "STATE": "기존",
+        "TYPE": "공립",
+        "POSTCODE": "",
+        "ADD_KOR": "서울 동대문구 서울시립대로 163 (전농동 90번지) ",
+        "ADD_KOR_ROAD": "",
+        "H_KOR_CITY": "서울특별시",
+        "H_KOR_GU": "동대문구",
+        "H_KOR_DONG": "휘경2동",
+        "TEL": "02-6490-6114",
+        "FAX": "02-2210-5576",
+        "HP": "http://www.uos.ac.kr"
+      },
+      {
+        "MAIN_KEY": "BE_LiST23-0035",
+        "YEAR": "2013",
+        "CATE1_NAME": "전문대학(3년제)",
+        "NAME_KOR": "서울여자간호대학교",
+        "BRANCH": "본교",
+        "STATE": "기존",
+        "TYPE": "사립",
+        "POSTCODE": "",
+        "ADD_KOR": "서울 서대문구 홍제3동 서울여자간호대학",
+        "ADD_KOR_ROAD": "",
+        "H_KOR_CITY": "서울특별시",
+        "H_KOR_GU": "서대문구",
+        "H_KOR_DONG": "홍제2동",
+        "TEL": "02-2287-1700",
+        "FAX": "02-395-8018",
+        "HP": "http://www.snjc.ac.kr"
+      }
+    ]
+  }
+}
